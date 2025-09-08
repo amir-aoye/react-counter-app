@@ -1,0 +1,46 @@
+.number {
+  font-size: 130px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.buttons button {
+  font-size: 20px;
+  background-color: transparent;
+  color: #fff;
+  width: 96px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 140ms ease-in;
+  opacity: 0.5;
+}
+
+.buttons button:hover {
+  color: rgb(236, 154, 2);
+  opacity: 1;
+}
+
+.buttons button:first-child {
+  border-color: rgb(255, 0, 0);
+}
+
+.buttons button:last-child {
+  border-color: rgb(0, 128, 0);
+}
+
+.text-red {
+  color: rgba(255, 0, 0, 0.7);
+}
+
+.text-green {
+  color: rgba(0, 128, 0, 0.7);
+}
